@@ -1,6 +1,6 @@
 # Shakespeare LLM
 
-A (modular)  Transformer trained on the standard `shakespeare.txt`. This project implements modern decoder-only Transformer using PyTorch and supports training with masked causal attention, and name sampling via autoregression. Includes modern architecture elements such as pre layernorm, feedforward, dropout, residual connections.
+A (modular)  Transformer trained on the standard `shakespeare.txt`. This project implements modern decoder-only Transformer using PyTorch and supports training with masked causal attention, and text sampling via autoregression. Includes modern architecture elements such as pre layernorm, feedforward, dropout, residual connections.
 Also includes rotary positional embeddings. Uses GPT2 BPE tokenizer.
 
 ---
